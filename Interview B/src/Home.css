@@ -1,0 +1,259 @@
+/* .first{
+    background-image: url('./first banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: aqua;
+    height: 75vh;
+} */
+
+.bait{
+    background-image: url('./first banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.navbar{
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+}
+
+.navbar1{
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+    z-index: -9;
+}
+
+.ima{
+    /* background-color: white; */
+    opacity: 0.8;
+}
+
+.navak{
+    background-color: #3a506e;
+    opacity: 0.9;
+    z-index: 9999;
+}
+
+.nava{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 15rem;
+    align-items: center;
+    
+    /* text-decoration: none; */
+    /* font-size: 1.5rem; */
+    /* color: black; */
+}
+
+.nava > span > a{
+    text-decoration: none;
+    color: white;
+}
+
+.navac{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 15rem;
+    align-items: center;
+    color: black;
+}
+
+.navac > a {
+    text-decoration: none;
+    color: black;
+}
+
+.navb{
+    /* display: flex; */
+    /* justify-content: space-around; */
+    width: 40%;
+    align-items: center;
+    color: white;
+    opacity: 0.4;
+    font-size: 12px;
+}
+
+.navb > a{
+    text-decoration: none;
+    color: white;
+}
+
+/* .sec{
+    position: relative;
+    background-image: url('./second_real_banner.png');
+    height: '100vh';
+    background-size:'cover';
+    background-repeat: 'no-repeat';
+} */
+.sec{
+    position: relative;
+   width: 100;
+}
+
+.sec > img{
+    width: 100%;
+}
+
+.mainCarosse{
+    background-color: #344966;
+    opacity: 0.9;
+    /* display: flex; */
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+
+.carosse{
+    display: flex;
+    margin: 20px auto;
+    width: 50%;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: transform 0.5s ease; /* Added transition for smooth sliding */
+}
+
+.carosse > div{
+    margin: 0 5px;
+}
+
+.corr1{
+    display: flex;
+    width: 20%;
+    margin: 10px auto;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s ease-in-out; /* Added transition for smooth sliding */
+}
+
+.corr1 > div{
+    padding: 5px 5px;
+    background-color: white;
+    border: 2px solid black;
+    margin: 0 5px;
+    transition: transform 0.5s ease-in-out, background-color 0.5s ease-in-out; /* Added transition for smooth sliding */
+}
+
+.active {
+    transform: scale(1.2);
+     /* Zoom effect for active image and thumbnail */
+}
+.mint{
+    /* background-image: url('./ban.png'); */
+    /* height: 30vh; */
+    /* background-size: cover; */
+    width: 100%;
+    background-repeat: none;
+}
+.maint{
+    background-color: #344966;
+    opacity: 0.9;
+    width: 100%;
+    /* position: absolute; */
+    /* bottom: 0; */
+    /* z-index: 1; */
+}
+
+.maint1{
+    width: 70%;
+    margin: 0px auto;
+}
+
+.maint1a{
+    display: flex;
+    /* justify-content: space-between; */
+    /* gap: 1rem; */
+    width: 17rem;
+    
+}
+
+.accord{
+    color: #6f7a8a;
+    padding: 10px 5px;
+    background-color: #1c2f4b;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    /* transition: ease-in-out 0.4s;
+    transition-delay: ease-in 1s; */
+}
+
+.accord1{
+    overflow-x: auto;
+}
+.accord:hover{
+    background-color: #6f7a8a;
+    color: #1c2f4b;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.accordy{
+    width: 100%;
+}
+
+.accord1 > img{
+    width: 100%;
+}
+.close{
+    display: none;
+}
+
+
+
+@media only screen and (max-width:894px){
+    .bait{
+        background-size: contain;
+    }
+}
+
+@media only screen and (max-width: 850px){
+    .navb{
+        width: 15rem;
+    }
+    
+}
+
+@media only screen and (max-width: 640px){
+    
+    .navbar1{
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 630px){
+    .nava{
+        width: 15rem;
+    }
+    .navbar{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 490px){
+    .navb{
+       font-size: 10px;
+    }
+    .ima > img{
+        width: 70%;
+    }
+    
+}
+
